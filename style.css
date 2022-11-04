@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:0 10%;
+
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.buttonCabeclho{
+    width: 150px;
+    height: 40px;
+    margin:0 8px ;
+    background-color: #0A99FE;
+    color: #ffffff;
+    border: #0A99FE;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.buttonCabeclho:nth-child(2){
+    background-color: #0a98fe15;
+    color: #0A99FE;
+}
+
+.sections1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sections2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title1{
+    color: #1B1B1B;
+    font-size: 20px;
+}
+
+.spans{
+    margin: 0;
+    padding: 0;
+    width: 207px;
+    height: 275px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spans img{
+    margin: 0;
+    padding: 0;
+    width: 207px;
+    height: 180px;
+    border-radius: 5px;
+}
+
+.spans h2{
+    color: #1B1B1B;
+    font-size: 20px;
+}
+
+.spans p {
+    color: #868383;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
