@@ -21,7 +21,7 @@
 .cabecalho{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .buttonCabeclho{
@@ -42,21 +42,28 @@
 
 .sectionPaintig{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+
 }
 
 .sectionAction{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    
 }
 
 .titleH1{
     color: #1B1B1B;
     font-size: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
-.produtos{
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
     margin: 0;
     padding: 0;
     width: 207px;
@@ -69,7 +76,7 @@
     list-style: none;
 }
 
-.imagem{
+img{
     margin: 0;
     padding: 0;
     width: 207px;
@@ -77,12 +84,12 @@
     border-radius: 5px;
 }
 
-.titleH2{
+h2{
     color: #1B1B1B;
     font-size: 20px;
 }
 
-.paragrafo{
+p{
     color: #868383;
     font-size: 16px;
 }
