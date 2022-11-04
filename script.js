@@ -1,4 +1,79 @@
-const section1 = document.querySelector(".section1");
+let sectionPaintig = document.querySelector(".sectionPaintig")
+let sectionAction  = document.querySelector(".sectionAction")
+
+
+function pruductsPainting(lista, referenciaHtml) {
+
+    for (let i = 0; i < lista.length; i++) {
+
+        let products        = lista[i];
+        let templeteMontado = criarTemplete(products);
+
+        referenciaHtml.appendChild(templeteMontado);
+    };
+};
+pruductsPainting(itens, sectionPaintig);
+
+
+function pruductsAction(lista, referenciaHtml) {
+
+    for (let i = 0; i < lista.length; i++) {
+
+        let products        = lista[i];
+        let templeteMontado = criarTemplete(products);
+
+        referenciaHtml.appendChild(templeteMontado);
+    };
+};
+pruductsAction(itens, sectionAction);
+
+
+function criarTemplete(products) {
+
+    let imagem = products.image;
+    let nome   = products.name;
+    let preco  = products.price;
+    let type   = products.type;
+
+    let tagSpan = document.createElement("span");
+
+    tagSpan.innerHTML = `<img src="./assets/img/${imagem}" alt="${nome}" class="imagens">
+    <h2 class="titleH2">${nome}</h2>
+    <p class="paragrafos">${preco}</p>`
+
+    sectionPaintig.appendChild(tagSpan)
+    sectionAction.appendChild(tagSpan)
+
+    return tagSpan
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* const section1 = document.querySelector(".section1");
 
 function pruductsPainting(lista, referenciaHtml) {
 
@@ -43,9 +118,9 @@ function criarTemplete(itens) {
     tagImg.src = `./assets/img/${imagem}`;
     tagImg.alt = nome
     tagH2.innerText = nome
-    tagP, innerHTML = `<strong>valor R$</strong> ${preco00}`;
+    tagP, innerHTML = `<strong>valor R$</strong> ${preco}`;
 
     tagSpan.append(tagImg, tagH2, tagP)
 
     return tagSpan
-}
+} */
