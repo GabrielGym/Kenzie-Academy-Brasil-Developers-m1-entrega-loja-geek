@@ -50,12 +50,13 @@
     justify-content: space-around;
 }
 
-.title1{
+.titleH1{
     color: #1B1B1B;
     font-size: 20px;
+    padding-bottom: 20px;
 }
 
-.spans{
+.produtos{
     margin: 0;
     padding: 0;
     width: 207px;
@@ -65,9 +66,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    list-style: none;
 }
 
-.imagens{
+.imagem{
     margin: 0;
     padding: 0;
     width: 207px;
@@ -80,7 +82,7 @@
     font-size: 20px;
 }
 
-.paragrafos{
+.paragrafo{
     color: #868383;
     font-size: 16px;
 }
